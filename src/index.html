@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Strawpoll</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/paper/bootstrap.min.css">
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        display:table;
+        width:100%;
+        height:100%;
+      }
+
+      .outer-wrapper {
+        display:table-cell;
+        vertical-align:middle;
+      }
+
+      .inner-wrapper {
+        margin-left:auto;
+        margin-right:auto;
+      }
+
+      #app {
+        font-family: Helvetica, sans-serif;
+      }
+
+      .logo {
+        width: 100px;
+        height: 100px;
+      }
+
+      .well {
+        background: #ecf0f1;
+      }
+    </style>
+  </head>
+  <body>
+  	<div class="outer-wrapper">
+	  	<div class="inner-wrapper">
+        <div class="container">
+    			<div id="app">
+            <div class="row">
+              <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <router-view></router-view>
+              </div>
+            </div>
+    			</div>
+        </div>
+  		</div>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
