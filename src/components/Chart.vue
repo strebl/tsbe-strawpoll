@@ -26,7 +26,6 @@ export default {
               '#FF6384',
               '#4BC0C0',
               '#FFCE56',
-              '#E7E9ED',
               '#36A2EB',
               '#E67E22',
               '#9b59b6',
