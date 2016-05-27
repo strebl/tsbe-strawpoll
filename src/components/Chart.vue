@@ -27,9 +27,12 @@ export default {
               '#4BC0C0',
               '#FFCE56',
               '#E7E9ED',
-              '#36A2EB'
+              '#36A2EB',
+              '#E67E22',
+              '#9b59b6',
+              '#34495e'
             ],
-            label: 'My dataset' // for legend
+            label: 'Result' // for legend
           }
         ],
         labels: labels
